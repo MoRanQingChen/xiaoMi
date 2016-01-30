@@ -1,0 +1,197 @@
+#node3-nav{
+    height: 50px;
+    margin-top: 15px;
+    background-color:#f5f5f5;
+}
+#node3-nav>div{
+    width: 1266px;
+    height: 50px;
+    margin: 0 auto;
+    line-height: 50px;
+    font-size: 14px;
+}
+#node3-nav>div>div{
+    display: inline;
+    float: right;
+}
+#node3-nav>div>a{
+    margin-top: 11px;
+    line-height: 28px;
+    color: white;
+    width: 138px;
+    height: 28px;
+    float: right;
+    margin-left: 15px;
+    background-color: #ff6700;
+    text-align: center;
+}
+#node3-nav>div>a:hover{background-color: #f76500
+}
+#node3-nav>div>div>span{
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #d0d0d0;
+}
+#node3-nav>div>div>a:nth-child(1){color: #ff6700}
+#node3-nav>div>div>a:hover{color: #ff6700}
+#node3-nav>div>span:nth-child(1){
+    font-size:18px;
+    color: #424242;
+}
+.transition{
+    -webkit-transition: all 2s ;
+    -moz-transition: all 2s ;
+    -ms-transition: all 2s ;
+    -o-transition: all 2s ;
+    transition: all 2s ;
+}
+#fly-box1{
+    width: 100%;
+    height: 1300px;
+    background-color:#f5f5f5;
+    position: relative;
+}
+#box1-content-1{
+    top: 200px;
+    text-align: center;
+}
+#box1-content-1>h1{
+    font-size: 70px;
+    font-weight: 100;
+}
+#box1-content-1>span{font-size: 30px;color: #999}
+#fly-box2{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    height: 1800px;
+    text-align: center;
+}
+.fly-content{
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 999;
+    color: #333333;
+    top: 0;
+    left: 0;
+}
+.fly-content-2{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -999;
+    top: 0;
+    left: 0;
+}
+.fly-content>div{
+    width: 80px;
+    border-top: 1px solid #333333;
+    margin: 0 auto;
+}
+.fly-content>h2{
+    font-size: 45px;
+    font-family: "Microsoft YaHei";
+    font-weight: 100;
+    margin-top: 140px;
+}
+.fly-content>p{line-height: 27px}
+.fly-content>a{color: #ff6700}
+#fly-box2>div>img{text-align: center;  margin-top: 1500px}
+#fly-box3{
+    width: 100%;
+    height: 1300px;
+    position: relative;
+    background-color: #f5f5f5;
+}
+#fly-box3>div{
+    width: 960px;
+    position: relative;
+    margin: 0 auto;
+}
+#box3-content{
+    top: 400px;
+}
+#box3-content>div{
+    margin: 40px 0;
+}
+#note3-num{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+}
+#note3-num>div{
+    width: 1120px;margin: 10px auto;padding-top: 60px;
+}
+#note3-num>div>div{width: 280px;float: left;text-align: center}
+#note3-num>div>div>h1{display: inline;color: #ccc;font-size: 140px;font-weight: 100;font-family: serif}
+#note3-num>div>div>span{color: #cccccc}
+#note3-num>div>div>p{color: #777777}
+#note3-num>div>div>div{width: 30px;border-top: 1px solid #777;margin: 0 auto}
+#fly-box4{
+    width: 100%;
+    height: 800px;
+    background-color: #e7dfd6;
+    position: relative;
+}
+#box4-content{
+    top: 250px;
+    text-align: center;
+}
+#fly-box5{
+    width: 100%;
+    height: 3420px;/*³¤*/
+    background-color: white;
+}
+#fly-box5>div{
+    width: 960px;
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+#box5-line-1,#box5-line-2{
+    margin:30px 0;
+}
+#box5-content-1{
+    left: 500px;
+    top: 450px;
+}
+#box5-content-2{
+    left: 0px;
+    top: 1200px;
+}
+#box5-content-3{
+    left: 500px;
+    top: 2300px;
+}
+#box5-content-2 span{
+    font-size: 24px;
+}
+#fly-box6{
+    width: 100%;
+    height: 1282px;
+    background-color: #f5f5f5;
+}
+#fly-box6>div{position: relative;width: 960px;margin: 0 auto}
+#box6-content{margin-top: 650px}
+#box6-content span{font-size: 30px}
+#box6-line{margin: 30px 0;}
+#fly-box7{
+width: 100%;
+    height: 1186px;
+    background-color: white;
+    text-align: center;
+}
+#fly-box7>div{position: relative;width: 960px;margin: 0 auto;}
+#box1-content-7>div{width:652px;height:73px;margin: 30px auto;border: none}
+#box1-content-7>div>div{width: 216px;float: left;color: #999}
+#box1-content-7>div>div>h3{font-size: 30px;font-weight: normal}
+#box1-content-7>div>div:first-child{border-right: 1px solid #cccccc}
+#box1-content-7>div>div:last-child{border-left: 1px solid #cccccc}
+#box1-content-7{top: 500px;}
+#fly-box8{
+    width: 100%;
+    height: 900px;
+    background-color: aliceblue;
+}

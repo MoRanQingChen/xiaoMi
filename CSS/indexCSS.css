@@ -1,0 +1,247 @@
+*{margin: 0;
+    padding: 0;
+    font-family: "Microsoft YaHei";
+}
+a{color: black;    text-decoration: none;}
+
+li{list-style-type: none}
+#top{
+    width: 100%;
+    height: 40px;
+    color: #b0b0b0;
+    background-color: #333;
+}
+#topContent{
+    width: 1226px;
+    height: 40px;
+    font-size: 12px;
+    margin: 0 auto;
+    position: relative;
+    background-color: #333;
+}
+#topContent a{
+    color: #b0b0b0;
+    font-size: 12px;
+
+}
+#topContent a:hover{
+    color: #ffffff;
+}
+#topContent span{
+    color: #424242;
+    line-height: 40px;
+    margin: 0 0;
+}
+#top-left{
+    float: right;
+}
+#shopCar{
+    font-size: 12px;
+    height: 40px;
+    width: 120px;
+    float: right;
+    background-color: #424242;
+    margin-left: 15px;
+    line-height: 40px;
+    text-align: center;
+}
+#shopCar img{
+    vertical-align:middle;
+}
+#shopCarBox1 img{
+    vertical-align:middle;
+}
+#alertCar{
+    position: absolute;
+    width: 329px;
+    height: 0px;
+    top: 0;
+    right: -7px;
+    overflow: hidden;
+    z-index: 1;
+    -webkit-transition: height 0.2s;
+    -moz-transition: height 0.2s;
+    -ms-transition: height 0.2s;
+    -o-transition: height 0.2s;
+    transition: height 0.2s;
+}
+#shopCarBox1{
+    font-size: 12px;
+    height: 40px;
+    width: 120px;
+    background-color: white;
+    color: darkorange;
+    line-height: 40px;
+    text-align: center;
+    position: absolute;
+    right: 7px;
+    top: 0;
+}
+#shopCarBox2{
+    height: 100px;
+    width: 315px;
+    background-color: #fff;
+    margin-left: 7px;
+    margin-top:40px;
+    box-shadow: 0px 0px 7px #ccc;
+    z-index: -1;
+    line-height: 100px;
+    text-align: center;
+    color: #777777;
+    overflow: hidden;
+}
+#content{
+    width: 1226px;
+    margin: 0 auto;
+}
+#C-top{
+    width: 100%;
+    height: 100px;
+}
+#C-top>div{
+    height: 100%;
+    float: left;
+}
+#logo{
+
+    display: block;
+    float: left;
+    margin-right: 20px ;
+    margin-top: 22.5px;
+}
+#air{
+    width: 190px;
+}
+#air img{
+    margin-top: 15px;
+    float: left;
+}
+#air div{
+    height: 60px;
+    padding: 20px 0;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+#air div span{display:block;font-size: 12px;text-align: center;color: #83c44e}
+#air div p{font-size: 10px;text-align: center;color: #b0b0b0}
+#nav{
+    width: 661px;
+}
+
+#nav ul li{
+    font-size: 16px;
+    display: inline-block;
+    float: left;
+    line-height: 100px;
+    width: 75px;
+    text-align: center;
+    margin: 0px;
+}
+#nav li>a{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+#nav a:hover{color: darkorange}
+#alertNavBG{
+    width: 100%;
+    height: 0;
+    top: 138px;
+    background-color: white;
+    position: absolute;
+    overflow: hidden;
+    z-index: 1000;
+    -webkit-transition: all 0.3s ;
+    -moz-transition: all 0.3s ;
+    -ms-transition: all 0.3s ;
+    -o-transition: all 0.3s ;
+    transition: all 0.3s ;
+}
+.alertNavBG-CSS{
+    box-shadow: 0 5px 5px rgba(0,0,0,0.1);
+    border-top: 1px solid #e1ddd8;
+}
+#alertNav-content{
+    width: 1226px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.alertNav div{
+    float: left;
+    width: 203px;
+}
+.alertNav span{
+    display: block;
+    float: left;
+    height: 100px;
+    width: 0px;
+    border-right: 1px solid #dddddd;
+}
+.alertNav{
+
+    height: 100%;
+    text-align: center;
+    padding-top: 40px;
+}
+.alertNav img{margin-bottom: 15px}
+.alertNav a{font-size: 14px;color: #333333}
+.alertNav p{ font-size: 14px;line-height: 20px;color: darkorange  }
+#search{
+    width: 300px;
+    position: relative;
+    z-index: 0;
+}
+#search input{
+    height:50px ;
+    width: 247px;
+    margin-top: 25px;
+    padding-left: 10px;
+    font-size: 14px;
+    border: 1px solid #cccccc;
+    display: inline-block
+}
+#search input:focus{
+    border: 1px solid darkorange;
+    outline: none;
+}
+#search img{
+    position: absolute;
+    display: block;
+    right: 0px;;
+    top: 25px;
+    border: 1px solid #cccccc;
+}
+
+#search a{
+    background-color: #eeeeee;
+    color: #757575;
+    font-size: 12px;
+    position: absolute;
+    top: 42px;
+    padding: 2px 5px;
+}
+#search a:hover{
+    background-color: darkorange;
+    color: white;
+}
+#searchAD1{
+    left: 135px;
+    -webkit-transition: opacity 0.3s ;
+    -moz-transition: opacity 0.3s ;
+    -ms-transition: opacity 0.3s ;
+    -o-transition: opacity 0.3s;
+    transition: opacity 0.2s;
+}
+#searchAD2{
+    left: 174px;
+    -webkit-transition: opacity 0.3s ;
+    -moz-transition: opacity 0.3s ;
+    -ms-transition: opacity 0.3s ;
+    -o-transition: opacity 0.3s;
+    transition: opacity 0.2s;
+}
+
+
+
+
